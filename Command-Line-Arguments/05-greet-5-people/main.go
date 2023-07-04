@@ -9,23 +9,28 @@
 package main
 
 // ---------------------------------------------------------
-// EXERCISE: Swapper
+// EXERCISE: Greet 5 People
 //
-//  1. Change `color` to "orange"
-//     and `color2` to "green" at the same time
+//  Greet 5 people this time.
 //
-//     (use multiple-assignment)
+//  Please do not copy paste from the previous exercise!
 //
-//  2. Print the variables
+// RESTRICTION
+//  This time do not use variables.
+//
+// INPUT
+//  bilbo balbo bungo gandalf legolas
 //
 // EXPECTED OUTPUT
-//  orange green
+//  There are 5 people!
+//  Hello great bilbo !
+//  Hello great balbo !
+//  Hello great bungo !
+//  Hello great gandalf !
+//  Hello great legolas !
+//  Nice to meet you all.
 // ---------------------------------------------------------
 
 func main() {
-	// UNCOMMENT THE CODE BELOW:
-
-	// color, color2 := "red", "blue"
-
-	// ?
+	// TYPE YOUR CODE HERE
 }

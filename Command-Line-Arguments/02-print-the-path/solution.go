@@ -7,25 +7,25 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
+import (
+	"fmt"
+	"os"
+)
 
 // ---------------------------------------------------------
-// EXERCISE: Swapper
+// EXERCISE: Print the Path
 //
-//  1. Change `color` to "orange"
-//     and `color2` to "green" at the same time
+//  Print the path of the running program by getting it
+//  from `os.Args` variable.
 //
-//     (use multiple-assignment)
+// HINT
+//  Use `go build` to build your program.
+//  Then run it using the compiled executable program file.
 //
-//  2. Print the variables
-//
-// EXPECTED OUTPUT
-//  orange green
+// EXPECTED OUTPUT SHOULD INCLUDE THIS
+//  myprogram
 // ---------------------------------------------------------
 
 func main() {
-	// UNCOMMENT THE CODE BELOW:
-
-	// color, color2 := "red", "blue"
-
-	// ?
+	fmt.Println(os.Args[0])
 }

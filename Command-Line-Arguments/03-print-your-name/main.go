@@ -9,23 +9,29 @@
 package main
 
 // ---------------------------------------------------------
-// EXERCISE: Swapper
+// EXERCISE: Print Your Name
 //
-//  1. Change `color` to "orange"
-//     and `color2` to "green" at the same time
+//  Get it from the first command-line argument
 //
-//     (use multiple-assignment)
-//
-//  2. Print the variables
+// INPUT
+//  Call the program using your name
 //
 // EXPECTED OUTPUT
-//  orange green
+//  It should print your name
+//
+// EXAMPLE
+//  go run main.go inanc
+//
+//    inanc
+//
+// BONUS: Make the output like this:
+//
+//  go run main.go inanc
+//    Hi inanc
+//    How are you?
 // ---------------------------------------------------------
 
 func main() {
-	// UNCOMMENT THE CODE BELOW:
-
-	// color, color2 := "red", "blue"
-
-	// ?
+	// get your name from the command-line
+	// and print it
 }

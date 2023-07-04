@@ -7,25 +7,26 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import (
+	"os"
+	"fmt"
+)
 // ---------------------------------------------------------
-// EXERCISE: Swapper
+// EXERCISE: Count the Arguments
 //
-//  1. Change `color` to "orange"
-//     and `color2` to "green" at the same time
+//  Print the count of the command-line arguments
 //
-//     (use multiple-assignment)
-//
-//  2. Print the variables
+// INPUT
+//  bilbo balbo bungo
 //
 // EXPECTED OUTPUT
-//  orange green
+//  There are 3 names.
 // ---------------------------------------------------------
 
 func main() {
-	// UNCOMMENT THE CODE BELOW:
+	// UNCOMMENT & FIX THIS CODE
+	count := len(os.Args) - 1
 
-	// color, color2 := "red", "blue"
-
-	// ?
+	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
+	fmt.Printf("There are %d names.\n", count)
 }
